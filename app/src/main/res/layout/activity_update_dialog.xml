@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activity.UpdateDialog">
+
+    <EditText
+        android:id="@+id/tvBusinessName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Business Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/tvOwnerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Owner Name with Intials" />
+
+    <EditText
+        android:id="@+id/tvPostAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Postal Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/tvRegNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Reg Number"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="@dimen/long_btn"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/roundstyle"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Update Data" />
+</LinearLayout>

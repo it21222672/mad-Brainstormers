@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Home Page</string>
+    <string name="btn_start">Start</string>
+    <string name="owner_name">Owner Name</string>
+    <string name="business_name">Business Name</string>
+    <string name="reg_num">Registration Number</string>
+    <string name="address">Postal Address</string>
+    <string name="btn_next">Next Button</string>
+    <string name="btn_back">Back Button</string>
+    <string name="btn_submit">Submit Button</string>
+    <string name="btn_upload">Uploading Button</string>
+    <string name="btn_business">Business Dashboard</string>
+    <string name="btn_investor">Investor Dashboard</string>
+    <string name="btn_vacancy">Vacancy Dashboard</string>
+    <string name="btn_about_us">About Us Dashboard</string>
+    <string name="tvLoadingData">loading data</string>
+    <string name="tvBusinessName">Business name</string>
+    <string name="tvOwnerName">Owner name</string>
+    <string name="tvPostAddress">Postal Address</string>
+    <string name="tvRegNum">Reg Number</string>
+    <string name="btnUpdateData">update</string>
+
+
+</resources>

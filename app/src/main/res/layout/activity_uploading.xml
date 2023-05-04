@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.uploading">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/logo_img"
+        android:layout_height="63dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nin" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="@dimen/text_edit"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:text="THANK YOU !"
+        android:textAlignment="center"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="@dimen/logo_img"
+        android:layout_height="206dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/_183402" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="@dimen/text_edit"
+        android:layout_height="142dp"
+        android:layout_marginTop="21dp"
+        android:text="Thank you for contacting us. We are grateful for your interest and support. Our team is dedicated to making a difference in the world, and we couldn't do it without generous supporters like you. We appreciate your effort to reach out to us and look forward to hearing more from you in the future."
+        android:textAlignment="center"
+        android:textColor="@color/light_gray"
+        android:textSize="7pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Team INVESTOR"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="@dimen/short_btn"
+        android:layout_height="40dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="300dp"
+        android:background="@drawable/roundstyle2"
+        android:text="back"
+        android:textColor="@color/white"
+        android:textSize="6pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/btn_details"
+        android:layout_width="117dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/roundstyle2"
+        android:text="View Details"
+        android:textColor="@color/white"
+        android:textSize="6pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/copyright" />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="@dimen/short_btn"
+        android:layout_height="40dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="82dp"
+        android:background="@drawable/roundstyle2"
+        android:text="finish"
+        android:textColor="@color/white"
+        android:textSize="6pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

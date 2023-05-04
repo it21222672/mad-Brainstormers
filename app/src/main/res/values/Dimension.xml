@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_width">249dp</dimen>
+    <dimen name="logo_img">283dp</dimen>
+    <dimen name="long_btn">316dp</dimen>
+    <dimen name="short_btn">92dp</dimen>
+    <dimen name="all_img">368dp</dimen>
+    <dimen name="text_edit">363dp</dimen>
+</resources>
