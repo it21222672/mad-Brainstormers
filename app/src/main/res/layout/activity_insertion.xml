@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".activities.InsertionActivity">
+
+
+    <ImageView
+        android:id="@+id/employeeportalimg"
+        android:layout_width="127dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/empprofilebanner"
+        app:srcCompat="@drawable/empdetails" />
+
+    <TextView
+        android:id="@+id/empprofilebanner"
+        android:layout_width="217dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/employeeportalbanner"
+        android:text="@string/employeeportalbanner"
+        android:textAlignment="center"
+        android:textColor="@color/employeeportalbanner"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etEmpName"
+        android:layout_width="374dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Enter name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        android:drawableStart="@drawable/cusperson"
+        app:layout_constraintTop_toBottomOf="@+id/employeeportalimg" />
+
+    <EditText
+        android:id="@+id/etEmpTitle"
+        android:layout_width="379dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Job title searching"
+        android:drawableStart="@drawable/title"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmpName" />
+
+    <EditText
+        android:id="@+id/etEmpCnum"
+        android:layout_width="379dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:drawableStart="@drawable/baseline_contact_phone_24"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmpTitle" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="143dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/btnSave"
+        android:text="ADD"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmpDescription" />
+
+    <EditText
+        android:id="@+id/etEmpDescription"
+        android:layout_width="379dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Enter Description"
+        android:drawableStart="@drawable/cusdescriiption"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmpCnum" />
+
+
+    <TextView
+        android:id="@+id/descriptioninfo"
+        android:layout_width="342dp"
+        android:layout_height="19dp"
+        android:text="@string/descriptioninfo"
+        android:textColor="@color/puprplel_blue"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmpDescription" />
+
+    <Button
+        android:id="@+id/empback"
+        android:layout_width="143dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="@color/empback"
+        android:text="@string/empback"
+        app:cornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/descriptioninfo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

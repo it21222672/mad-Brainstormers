@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ContactUs">
+
+    <EditText
+        android:id="@+id/inputField2"
+        android:layout_width="329dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/cusdescriiption"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:text="Description"
+        android:textColor="@color/inputField2"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner2" />
+
+    <TextView
+        android:id="@+id/titleContact"
+        android:layout_width="349dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:text="Contact - Us"
+        android:textAlignment="center"
+        android:textColor="@color/titleContact"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/banner1"
+        android:layout_width="69dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/banner1"
+        android:textAlignment="viewStart"
+        android:textColor="@color/banner1"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <EditText
+        android:id="@+id/inputField1"
+        android:layout_width="329dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/cusperson"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:text="Enter your Name"
+        android:textColor="@color/inputField1"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner1" />
+
+    <TextView
+        android:id="@+id/banner2"
+        android:layout_width="127dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:text="Description"
+        android:textColor="@color/banner2"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailinput" />
+
+    <Button
+        android:id="@+id/ContactSbutton"
+        android:layout_width="165dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="140dp"
+        android:backgroundTint="@color/ContactSbutton"
+        android:text="Submit"
+        app:cornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField2" />
+
+    <Button
+        android:id="@+id/ContactCbutton"
+        android:layout_width="159dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="140dp"
+        android:backgroundTint="@color/ContactCbutton"
+        android:text="Cancel"
+        app:cornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ContactSbutton" />
+
+    <TextView
+        android:id="@+id/cusemail"
+        android:layout_width="103dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/cusemail"
+        android:textColor="@color/cusemail"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputField1" />
+
+    <EditText
+        android:id="@+id/emailinput"
+        android:layout_width="329dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/cusemail"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/emailinput"
+        android:textColor="@color/emailinput"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cusemail" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="187dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="104dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleContact"
+        app:srcCompat="@drawable/contactusback" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="puprplel_blue">#94BDFE</color>
+    <color name="divider_grey">#D3D0D0</color>
+
+
+    //dashboard UI colours
+    <color name="calgobutton">#94BDFE</color>
+    <color name="Usbutton">#94BDFE</color>
+    <color name="aboutusgobutton">#94BDFE</color>
+    <color name="personalportalbutton">#94BDFE</color>
+    <color name="dashboardbackbutton">#FF018786</color>
+    <color name="dashboardtitle">#94BDFE</color>
+    <color name="v1">#94BDFE</color>
+    <color name="v2">#94BDFE</color>
+    <color name="v3">#94BDFE</color>
+    <color name="v4">#94BDFE</color>
+    <color name="v5">#94BDFE</color>
+
+    //employee list UI
+    <color name="employeelistbanner">#94BDFE</color>
+    <color name="emplistback">#FF018786</color>
+
+    //emp add UI colours
+    <color name="employeeportalbanner">#94BDFE</color>
+    <color name="empname">#94BDFE</color>
+    <color name="empposition">#94BDFE</color>
+    <color name="empcontact">#94BDFE</color>
+    <color name="empdescription">#94BDFE</color>
+    <color name="btnSave">#94BDFE</color>
+    <color name="empback">#FF018786</color>
+    <color name="btnDelete">#FFD32C2C</color>
+    //calculator UI colours
+    <color name="calbanner">#94BDFE</color>
+    <color name="offerbanner">#FF000000</color>
+    <color name="Offer">#857D7D</color>
+    <color name="precentage">#FF000000</color>
+    <color name="precentageinput">#857D7D</color>
+    <color name="buissnessval">#FF000000</color>
+    <color name="profitinput">#857D7D</color>
+    <color name="calbutton">#94BDFE</color>
+    <color name="calbackbutton">#FF018786</color>
+
+    //answer Ui colours
+    <color name="Answerbanner">#94BDFE</color>
+    <color name="answerdisplay">#494949</color>
+    <color name="answerback">#FF018786</color>
+
+    //contact us dash-board colours
+    <color name="customerServices">#94BDFE</color>
+    //contact UI colours
+    <color name="titleContact">#94BDFE</color>
+    <color name="banner1">#94BDFE</color>
+    <color name="cusemail">#94BDFE</color>
+    <color name="banner2">#94BDFE</color>
+    <color name="ContactSbutton">#94BDFE</color>
+    <color name="ContactCbutton">#FF018786</color>
+    <color name="inputField1">#857D7D</color>
+    <color name="emailinput">#857D7D</color>
+    <color name="inputField2">#857D7D</color>
+</resources>

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">firebasekotlin</string>
+
+    //Main UI
+    <string name="calgobutton">Calculator</string>
+    <string name="Usbutton">Contact-Us</string>
+    <string name="aboutusgobutton">Employee-List</string>
+    <string name="personalportalbutton"> Register Employee</string>
+    <string name="dashboardbackbutton">Back</string>
+
+    //employee list
+    <string name="employeelistbanner">Find your Employee here</string>
+    <string name="emplistback">Back</string>
+
+    //employee insert UI
+    <string name="employeeportalbanner">Employee-Portal</string>
+    <string name="employeeportalinstructions">Add your details here.makesure you are adding right details and do not forget to mention contact number.</string>
+    <string name="empname">Name</string>
+    <string name="empposition">Job title seraching</string>
+    <string name="empcontact">Contact - Number</string>
+    <string name="empdescription">A Brief description</string>
+    <string name="descriptioninfo">Add social media account link if u can</string>
+    <string name="empinsert">ADD</string>
+    <string name="empback">Back</string>
+
+    //employee profile
+    <string name="empprofilebanner">Your details</string>
+    <string name="empdname">Name</string>
+    <string name="empdposition">Job title</string>
+    <string name="empdcontact">Contact - Number</string>
+    <string name="empddescription">A Brief description</string>
+    <string name="contactemp"> Contact</string>
+    <string name="empdupdate">Update</string>
+    <string name="empddelete">Delete</string>
+
+    //employee update UI
+    <string name="employeeupdatebanner">Update-Details</string>
+    <string name="employeeupdateinstructions">Edit your details here.Press Update button</string>
+    <string name="empupdatename">Edit Name</string>
+    <string name="empupdateposition">Edit-Position</string>
+    <string name="empupdatecontact">Edit Contact-number</string>
+    <string name="empupdatedescription">Edit-discription</string>
+    <string name="updatedescriptioninfo">Add social media account link if u can</string>
+    <string name="empiupdate">Update</string>
+    <string name="empupdateback">Back</string>
+
+    //calculator UI
+    <string name="calbanner">Calculator</string>
+    <string name="offerbanner">Enter your offer</string>
+    <string name="Offer">Offer</string>
+    <string name="precentage">Enter the offer precentage</string>
+    <string name="precentageinput">Precenetage</string>
+    <string name="buissnessval">Enter expected profit</string>
+    <string name="profitinput">Profit</string>
+    <string name="calbutton"> CALCULATE</string>
+    <string name="calbackbutton">Back</string>
+
+    //cal Answer UI
+    <string name="Answerbanner">Answer</string>
+    <string name="answerdisplay"> Answer</string>
+    <string name="answerback"> Back</string>
+
+
+    <string name="titleContact">Contact-Us</string>
+    <string name="banner1">Name</string>
+    <string name="inputField1">Name</string>
+    <string name="cusemail">Email</string>
+    <string name="emailinput">Enter your Email</string>
+    <string name="banner2">Description</string>
+    <string name="inputField2">Description</string>
+    <string name="ContactSbutton">Submit</string>
+    <string name="ContactCbutton">Cancel</string>
+</resources>

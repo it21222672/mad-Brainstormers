@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Calculator">
+
+    <TextView
+        android:id="@+id/calbanner"
+        android:layout_width="218dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/calbanner"
+        android:textAlignment="center"
+        android:textColor="@color/calbanner"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/offerbanner"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/offerbanner"
+        android:textColor="@color/offerbanner"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calbanner" />
+
+    <EditText
+        android:id="@+id/Offer"
+        android:layout_width="278dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/Offer"
+        android:textColor="@color/Offer"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/offerbanner" />
+
+    <TextView
+        android:id="@+id/precentage"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/precentage"
+        android:textColor="@color/precentage"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Offer" />
+
+    <EditText
+        android:id="@+id/precentageinput"
+        android:layout_width="284dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/precentageinput"
+        android:textColor="@color/precentageinput"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/precentage" />
+
+    <TextView
+        android:id="@+id/buissnessval"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/buissnessval"
+        android:textColor="@color/buissnessval"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/precentageinput" />
+
+    <EditText
+        android:id="@+id/profitinput"
+        android:layout_width="295dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/profitinput"
+        android:textColor="@color/profitinput"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buissnessval" />
+
+    <Button
+        android:id="@+id/calbutton"
+        android:layout_width="142dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="28dp"
+        android:height="142dp"
+        android:backgroundTint="@color/calbutton"
+        android:text="@string/calbutton"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profitinput" />
+
+    <Button
+        android:id="@+id/calbackbutton"
+        android:layout_width="144dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="32dp"
+        android:height="142dp"
+        android:backgroundTint="@color/calbackbutton"
+        android:text="@string/calbackbutton"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

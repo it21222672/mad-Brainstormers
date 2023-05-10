@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/empprofilebanner"
+        android:layout_width="217dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/employeeportalbanner"
+        android:text="@string/employeeupdatebanner"
+        android:textAlignment="center"
+        android:textColor="@color/employeeportalbanner"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etEmpName"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="20dp"
+        android:hint="Edit Name"
+        android:drawableStart="@drawable/cusperson"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEmpTitle"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:drawableStart="@drawable/title"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Edit Job" />
+
+    <EditText
+        android:id="@+id/etEmpCnum"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Edit Contact Number"
+        android:drawableStart="@drawable/baseline_contact_phone_24"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEmpDescription"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Edit Description"
+        android:drawableStart="@drawable/cusdescriiption"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnUpdateData"
+
+        android:layout_width="152dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="56dp"
+        android:layout_gravity="center"
+
+        android:text="Update Data" />
+
+    <Button
+        android:id="@+id/empback"
+        android:layout_width="152dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="56dp"
+
+        android:backgroundTint="@color/empback"
+        android:text="@string/empback" />
+
+
+</LinearLayout>
