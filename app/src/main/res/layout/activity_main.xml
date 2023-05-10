@@ -5,35 +5,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
+    android:backgroundTint="#FFFFFF"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/Txt_Welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="34dp"
-        android:text="Welcome"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="14dp"
+        android:text="Welcome!"
+        android:textColor="#1A94E4"
         android:textSize="12pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Txt_Heading"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/Main_img" />
 
     <TextView
         android:id="@+id/Txt_Heading"
-        android:layout_width="293dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="16dp"
-        android:text="Make your business dream a reality,come and join with us"
+        android:layout_width="342dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="8dp"
+        android:text="Make your business dream a reality,come and join with us..."
         android:textAlignment="center"
+        android:textColor="#7F9BAE"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_start"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Txt_Welcome" />
 
     <ImageView
         android:id="@+id/Main_img"
-        android:layout_width="355dp"
-        android:layout_height="342dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="418dp"
+        android:layout_height="302dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/Txt_Welcome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/proj_logo"
@@ -41,12 +52,15 @@
 
     <ImageView
         android:id="@+id/proj_logo"
-        android:layout_width="@dimen/logo_img"
-        android:layout_height="81dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="284dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/Main_img"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Txt_Heading"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/nin" />
 
     <Button
@@ -54,23 +68,26 @@
         android:layout_width="@dimen/long_btn"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="9dp"
         android:background="@drawable/roundstyle"
         android:clickable="true"
         android:onClick="Dashboard"
         android:text="start to build your dream"
         android:textColor="@color/Gray"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Main_img" />
+        app:layout_constraintTop_toBottomOf="@+id/Txt_Heading" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="@dimen/text_width"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginBottom="28dp"
         android:text="©invester. All rights reserved"
         android:textAlignment="center"
+        android:textColor="#FF7F9BAE"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_start" />

@@ -14,4 +14,5 @@
     <color name="light_green">#D7018786</color>
     <color name="text_color">#00354E</color>
     <color name="delete_red">#FFD32C2C</color>
+    <color name="viewcolor">#7580CCFF</color>
 </resources>
