@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">investordetail</string>
+
+    <string-array name="salary">
+        <item>Select your salary range</item>
+        <item>50 000$ - 70 000$</item>
+        <item>70 000$ - 90 000$</item>
+
+    </string-array>
+
+    <string-array name="country">
+        <item>Select your country</item>
+        <item>India</item>
+        <item>USA</item>
+        <item>China</item>
+    </string-array>
+
+
+    <string name="getdata">Investmentlanka.gmail.com</string>
+    <string name="input">Enter message</string>
+
+    <string name="bttntype">Buy</string>
+</resources>

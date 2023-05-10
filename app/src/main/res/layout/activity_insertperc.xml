@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".activities.insertperc">
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="219dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="228dp"
+        android:background="@drawable/roundbttn"
+        android:backgroundTint="@color/lighblue"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/investcha"
+        android:layout_width="222dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Your amount in Rupees"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486" />
+
+    <EditText
+        android:id="@+id/investamount"
+        android:layout_width="364dp"
+        android:layout_height="66dp"
+        android:ems="10"
+        android:hint="Enter your offer in Dollers"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177" />
+
+    <EditText
+        android:id="@+id/investperg"
+        android:layout_width="352dp"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:hint="Enter percentage"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346" />
+
+    <Button
+        android:id="@+id/bttonco"
+        android:layout_width="129dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Click me"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/bttoncont"
+        android:layout_width="221dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbttn"
+        android:backgroundTint="@color/ligtblue"
+        android:text="contact us"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="301dp"
+        android:layout_height="70dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/coiny"
+        android:text="My Offer"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

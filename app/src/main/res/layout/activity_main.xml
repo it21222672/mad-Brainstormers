@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/insertbttn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".activities.InvestorMainActivity">
+
+    <Button
+        android:id="@+id/insertbtton"
+        android:layout_width="274dp"
+        android:layout_height="64dp"
+        android:background="@drawable/roundbttn"
+        android:backgroundTint="@color/lighblue"
+        android:text="Add my detail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667" />
+
+    <Button
+        android:id="@+id/fetchbtton"
+        android:layout_width="262dp"
+        android:layout_height="64dp"
+        android:background="@drawable/roundbttn"
+        android:backgroundTint="@color/lighblue"
+        android:text="See my detail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.844" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="240dp"
+        android:layout_height="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071"
+        app:srcCompat="@drawable/nin" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="303dp"
+        android:layout_height="247dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.301"
+        app:srcCompat="@drawable/invest" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
