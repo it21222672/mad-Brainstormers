@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //for textview
+    <dimen name="widthmaintxta">195dp</dimen>
+    <dimen name="hightmaintxta">36dp</dimen>
+    <dimen name="mrgntop">132dp</dimen>
+    <dimen name="constrainthorizontal">0.717</dimen>
+
+    //for imageview
+    <dimen name="layoutwidth">76dp</dimen>
+    <dimen name="layouthight">140dp</dimen>
+
+    <dimen name="marginstart">36dp</dimen>
+    <dimen name="margintop">52dp</dimen>
+
+
+    //for bttn
+    <dimen name="bttnwidth">336dp</dimen>
+    <dimen name="bttnhight">66dp</dimen>
+
+
+
+    <dimen name="symbwidth">153dp</dimen>
+    <dimen name="symbhight">39dp</dimen>
+    <dimen name="margntop">24dp</dimen>
+    <dimen name="margnend">16dp</dimen>
+
+
+    //topic textview
+    <dimen name="textwidth">175dp</dimen>
+    <dimen name="texthight">51dp</dimen>
+    <dimen name="textmargntop">60dp</dimen>
+
+    <dimen name="imagwidth">129dp</dimen>
+    <dimen name="imaghight">89dp</dimen>
+    <dimen name="margtop">196dp</dimen>
+    <dimen name="margbotm">400dp</dimen>
+</resources>

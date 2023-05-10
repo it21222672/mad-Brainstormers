@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "304305786548",
+    "firebase_url": "https://madgroup-74f06-default-rtdb.firebaseio.com",
+    "project_id": "madgroup-74f06",
+    "storage_bucket": "madgroup-74f06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304305786548:android:4a3b0145577a39e23391e1",
+        "android_client_info": {
+          "package_name": "com.example.andrloga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304305786548-b3lk7708k9sukpaaprn4p83leirdi32a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7iBZgje5YNYZBAPSG5qDdAbii-XJoryA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304305786548-b3lk7708k9sukpaaprn4p83leirdi32a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304305786548:android:80eee15c9da600893391e1",
+        "android_client_info": {
+          "package_name": "com.example.investordetail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304305786548-b3lk7708k9sukpaaprn4p83leirdi32a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7iBZgje5YNYZBAPSG5qDdAbii-XJoryA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304305786548-b3lk7708k9sukpaaprn4p83leirdi32a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304305786548:android:3f0c7b80b5357b463391e1",
+        "android_client_info": {
+          "package_name": "com.example.investorlog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304305786548-b3lk7708k9sukpaaprn4p83leirdi32a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7iBZgje5YNYZBAPSG5qDdAbii-XJoryA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304305786548-b3lk7708k9sukpaaprn4p83leirdi32a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
