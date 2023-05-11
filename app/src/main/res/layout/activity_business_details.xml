@@ -69,7 +69,6 @@
         android:id="@+id/editTextTextPersonName"
         android:layout_width="@dimen/text_edit"
         android:layout_height="55dp"
-        android:layout_marginTop="4dp"
         android:ems="10"
         android:hint="Owner name with Initials"
         android:inputType="textPersonName"
