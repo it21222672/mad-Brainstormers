@@ -70,9 +70,9 @@ class BusinessDetails : AppCompatActivity() {
 
             // Build the notification
             val builder = NotificationCompat.Builder(this, channelId)
-                .setSmallIcon(androidx.core.R.drawable.notification_icon_background)
-                .setContentTitle("Submission Received")
-                .setContentText("Thank you for submitting your details!")
+                .setSmallIcon(R.drawable.app)
+                .setContentTitle("Your Submission Received")
+                .setContentText("Thank you for joining with us!")
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
 
             // Send the notification
