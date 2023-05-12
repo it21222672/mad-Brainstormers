@@ -35,7 +35,7 @@
         android:id="@+id/imageView"
         android:layout_width="@dimen/logo_img"
         android:layout_height="63dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
