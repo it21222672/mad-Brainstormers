@@ -56,6 +56,8 @@ class BusinessDetails : AppCompatActivity() {
         btn_Submit.setOnClickListener{
             saveBusinessData()
 
+
+            // Notification sending
             // Create a notification channel (required on Android 8.0 and above)
             val channelId = "my_channel_id"
             val channelName = "My Channel"
