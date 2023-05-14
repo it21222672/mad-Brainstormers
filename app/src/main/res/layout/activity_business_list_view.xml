@@ -21,23 +21,15 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:listitem="@layout/activity_business_list_item" />
 
-    <TextView
-        android:id="@+id/tvLoadingData"
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Loading Data..."
-        android:textColor="@color/black"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        android:visibility="gone"
-        app:layout_constraintBottom_toTopOf="@+id/rvbusiness"
-        app:layout_constraintEnd_toStartOf="@+id/rvbusiness"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="gone">
-
-    </TextView>
-
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

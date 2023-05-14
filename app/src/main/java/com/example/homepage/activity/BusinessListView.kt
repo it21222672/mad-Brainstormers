@@ -1,6 +1,7 @@
 //Import necessary packages
 package com.example.homepage.activity
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -27,6 +28,7 @@ class BusinessListView : AppCompatActivity() {
     private lateinit var dbRef: DatabaseReference
 
     //Override the onCreate method
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
 
         //Set the status bar to fullscreen and hide the action bar
@@ -42,7 +44,7 @@ class BusinessListView : AppCompatActivity() {
         empRecyclerView.setHasFixedSize(true)
 
         //Find the text view for loading data
-        rvLoadingData = findViewById(R.id.tvLoadingData)
+        rvLoadingData = findViewById(R.id.progressBar)
 
         //Initialize the employee list array
         empList = arrayListOf<BusinessModel>()
