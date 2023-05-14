@@ -44,7 +44,7 @@ class BusinessListView : AppCompatActivity() {
         empRecyclerView.setHasFixedSize(true)
 
         //Find the text view for loading data
-        rvLoadingData = findViewById(R.id.progressBar)
+        rvLoadingData = findViewById(R.id.tvLoadingData)
 
         //Initialize the employee list array
         empList = arrayListOf<BusinessModel>()
